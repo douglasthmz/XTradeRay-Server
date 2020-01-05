@@ -1,0 +1,22 @@
+{
+  "name": "xtraderay-server",
+  "version": "1.0.0",
+  "description": "Server para api-rest do app XTradeRay",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/douglasthmz/XTradeRay-Server.git"
+  },
+  "author": "Douglas Thomaz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/douglasthmz/XTradeRay-Server/issues"
+  },
+  "homepage": "https://github.com/douglasthmz/XTradeRay-Server#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
