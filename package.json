@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "description": "Server para api-rest do app XTradeRay",
   "engines": {
-    "node": "12.13.1"
+    "node": "12.13.1",
+    "npm": "6.12.1"
   },
   "main": "index.js",
   "scripts": {
