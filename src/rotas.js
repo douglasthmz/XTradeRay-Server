@@ -1,6 +1,7 @@
 const express = require('express');
-const TradeController = require('./controller/TradeController')
+const TradeController = require('./controller/TradeController');
 const rotas = express.Router();
+
 
 rotas.get('/trades', TradeController.lista);
 rotas.get('/trades/:id', TradeController.buscaPorId)
