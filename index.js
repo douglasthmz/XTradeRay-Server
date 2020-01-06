@@ -12,5 +12,6 @@ require('./src/models/Trade');
 
 app.use('/api', require('./src/rotas'));
 
-const port=process.env.PORT || 3001;
+var port=process.env.PORT || 3001;
+
 app.listen(port);
