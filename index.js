@@ -10,8 +10,8 @@ mongoose.connect('mongodb+srv://deploy:deploy@xtraderay-rztrb.mongodb.net/test?r
 
 require('./src/models/Trade');
 
-app.use('/api', require('./src/rotas'));
+app.use(require('./src/rotas'));
 
 var port=process.env.PORT || 3001;
 
-app.listen(port, function(){return console.log('Funciona disgraça')});
+app.listen(port, function(){return console.log(port)});
