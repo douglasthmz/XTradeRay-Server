@@ -14,4 +14,4 @@ app.use(require('./src/rotas'));
 
 var port=process.env.PORT || 3001;
 
-app.listen(port, function(){return console.log(port)});
+app.listen(port);
